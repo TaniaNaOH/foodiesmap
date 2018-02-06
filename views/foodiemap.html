@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>FoodMap</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h2 class="foodmap-logo"><span class="underline">Foodiemap</span></h2>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="row">
+      <div class="col s12 center-align">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.817215681844!2d-99.16530268552586!3d19.420301986891268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff41d4c73813%3A0xd1c6f4fcad149f54!2sLaboratoria+Coding!5e0!3m2!1ses-419!2smx!4v1516467026201" width="700" height="500" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="row">
+      <div class="col s12">
+        <h3 class="small-title">¿Que se te antoja?</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="input-field col s12">
+          <select id="filter">
+            <option value="Elige tu opción">Elige tu opción</option>
+            <option value="Italiana">Italiana</option>
+            <option value="Francesa">Francesa</option>
+            <option value="Fast food">Fast food</option>
+            <option value="Oriental">Oriental</option>
+            <option value="Gourmet">Gourmet</option>
+            <option value="Fuente de sodas">Fuente de sodas</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div id="restaurants">
+      <div class="row restaurant-name">
+        <div class="col s6">
+          <div class="restaurant-food1 modal-trigger" href="#modal0">
+            <h3 class="name">Pizza Rustica Condesa</h3>
+          </div>
+          <div id="modal0" class="modal modal-fixed-footer">
+            <div class="modal-content restaurant">
+              <div class="restaurant-logo"></div>
+              <h4 class="restaurant-name-title">PIZZA RUSTICA CONDESA</h4>
+              <p class="restaurant-info">Pizza forno a la legna, la mejor de la condesa</p>
+              <p class="food-type">Italiana</p>
+                <div class="restaurant-photo1"> <img src="../assets/img/foodpizza.jpg" alt="pizza" class="responsive-img">Pizza Margherita</div>
+              <p class="restaurant-direction-title">Av Sonora 209, Hipódromo, 06100 Ciudad de México, CDMX</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect btn-flat btn-black center-align">Pide AHORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row restaurant-name">
+        <div class="col s6 offset-s6">
+          <div class="restaurant-food2 modal-trigger" href="#modal1">
+            <h3 class="name">MEXSI BOCU</h3>
+          </div>
+          <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content restaurant">
+              <div class="restaurant-logo"></div>
+              <h4 class="restaurant-name-title">MEXSI BOCU</h4>
+              <p class="restaurant-info">Auténtico Bistró Frances</p>
+              <p class="food-type">Francesa</p>
+              <div class="restaurant-photo2"> <img src="../assets/img/food11.jpg" alt="Ensalada" class="responsive-img"> Ensalada Capresse </div>
+              <p class="restaurant-direction-title">Calle Durango 359, Colonia Roma</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect btn-flat btn-black center-align">Pide AHORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row restaurant-name">
+        <div class="col s6">
+          <div class="restaurant-food3 modal-trigger" href="#modal2">
+            <h3 class="name">BREAKFAST ROMA</h3>
+          </div>
+          <div id="modal2" class="modal modal-fixed-footer">
+            <div class="modal-content restaurant">
+
+              <h4 class="restaurant-name-title">BREAKFAST ROMA</h4>
+              <p class="restaurant-info">Hip burguers, pizza, hotdog, Nachos y deliciosos desayunos elaborados al momento</p>
+              <p class="food-type">Fast food</p>
+              <div class="restaurant-photo3"> <img src="../assets/img/food3.jpg" alt="Hamburguesa" class="responsive-img"> Hip hip burguers </div>
+              <p class="restaurant-direction-title">Calle Durango 359, Colonia Roma</p>
+            </div>
+            <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect btn-flat btn-black center-align">Pide AHORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row restaurant-name">
+        <div class="col s6 offset-s6">
+          <div class="restaurant-food4 modal-trigger" href="#modal3">
+            <h3 class="name">SUSHI MAKIN</h3>
+          </div>
+          <div id="modal3" class="modal modal-fixed-footer">
+            <div class="modal-content restaurant">
+              <div class="restaurant-logo"></div>
+              <h4 class="restaurant-name-title">SUSHI MAKIN</h4>
+              <p class="restaurant-info">"Sushi Makin la casa del Ramen Oniguiris y mucho mas"</p>
+              <p class="food-type">Oriental</p>
+              <div class="restaurant-photo4"> <img src="../assets/img/foodramen.jpg" alt="Ensalada" class="responsive-img"> Ramenizzer </div>
+              <p class="restaurant-direction-title">"Calle 10 No. 83 Local 13 Álvaro Obregón.</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect btn-flat btn-black center-align">Pide AHORA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row restaurant-name">
+      <div class="col s6">
+        <div class="restaurant-food5 modal-trigger" href="#modal4">
+          <h3 class="name">EL RINCON GOURMET</h3>
+        </div>
+        <div id="modal4" class="modal modal-fixed-footer">
+          <div class="modal-content restaurant">
+            <div class="restaurant-logo"></div>
+            <h4 class="restaurant-name-title">EL RINCON GOURMET</h4>
+            <p class="restaurant-info">El lugar favorito de los gourmets & foodies contamos con gran variedad en productos deli y cocina de autor</p>
+            <p class="food-type">Gourmet</p>
+            <div class="restaurant-photo5"> <img src="../assets/img/food4.jpg" alt="antipasti Prosciutto" class="responsive-img"> Antipasti Prosciutto </div>
+            <p class="restaurant-direction-title">Pachuca 87 Alvaro obregon</p>
+          </div>
+          <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect btn-flat btn-black center-align">Pide AHORA</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row restaurant-name">
+      <div class="col s6 offset-s6">
+        <div class="restaurant-food6 modal-trigger" href="#modal5">
+          <h3 class="name">SMOOTHIES</h3>
+        </div>
+        <div id="modal5" class="modal modal-fixed-footer">
+          <div class="modal-content restaurant">
+            <div class="restaurant-logo"></div>
+            <h4 class="restaurant-name-title">SMOOTHIES</h4>
+            <p class="restaurant-info">Fuente de sodas estilo vintage tenemos mas de 50 malteadas diferentes, gelato artesanal y un gran variedad de postres para compartir con esa persona especial</p>
+            <p class="food-type">Fuente de sodas</p>
+            <div class="restaurant-photo6"> <img src="../assets/img/food6.jpg" alt="Malteada" class="responsive-img"> Smoothie Hercules </div>
+          </div>
+          <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect btn-flat btn-black center-align">Pide AHORA</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="../js/data.js"></script>
+<script type="text/javascript" src="../js/app.js"></script>
+</body>
+</html>

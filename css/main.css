@@ -1,0 +1,115 @@
+body{
+  background-image: url(../assets/img/fondo.jpg);
+  padding-top: 2em;
+}
+
+.foodmap-logo{
+  font-weight: 100;
+  color: black;
+  font-size: 3.5em;
+  margin: 0;
+  text-align: center;
+  font-family: bolder;
+}
+.absolute-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.map{
+  margin-top: 1em;
+  width: 100%;
+  height:400px;
+}
+.small-title{
+  font-weight: 100;
+  color: black;
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+  font-family: bolder;
+}
+
+.input-field{
+  color: black;
+  margin-top: 1em;
+  width: 100%;
+}
+
+ ul.dropdown-content.select-dropdown li span {
+    color: black;
+}
+.restaurant-food1{
+  background-image: url(../assets/img/foodpizza.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.restaurant-food2{
+  background-image: url(../assets/img/food11.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.restaurant-food3{
+  background-image: url(../assets/img/food3.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.restaurant-food4{
+  background-image: url(../assets/img/foodramen.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.restaurant-food5{
+  background-image: url(../assets/img/food4.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.restaurant-food6{
+  background-image: url(../assets/img/food6.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.restaurant{
+  text-align: center;
+}
+
+.restaurant-direction-title{
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 1.3em;
+  color: black;
+}
+.name{
+  color:#FFF;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  margin: 0;
+}
+
+.food-type{
+  letter-spacing: 0.1em;
+  color: #FFF;
+  background-color: #424445;
+}
+.restaurant-direction-title{
+  font-weight: 600;
+  margin-bottom: 0;
+  font-size: 1.3em;
+  color: black;
+}
+
+div .btn-black{
+  width: 100%;
+}
+.btn-black{
+  background-color: black;
+  color: #fff;
+}
