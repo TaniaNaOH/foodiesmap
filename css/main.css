@@ -2,9 +2,9 @@ body{
   background-image: url(../assets/img/fondo.jpg);
   padding-top: 2em;
   background-size:cover;
-	height:100vh;
-	margin:0 auto;
-	width:100%;
+  height:100vh;
+  margin:0 auto;
+  width:100%;
   font-size: 20px;
 }
 
@@ -43,8 +43,8 @@ body{
   width: 100%;
 }
 
- ul.dropdown-content.select-dropdown li span {
-    color: black;
+ul.dropdown-content.select-dropdown li span {
+  color: black;
 }
 .restaurant-food1{
   background-image: url(../assets/img/foodpizza.jpg);
@@ -94,7 +94,7 @@ body{
 }
 .name{
   color:#FFF;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: black;
   text-align: center;
   margin: 0;
 }

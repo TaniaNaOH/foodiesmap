@@ -7,7 +7,6 @@ $(document).ready(function(){
 
 for (var i = 0; i < restaurants.length; i++) {
 
-
   var createRestaurants = $("#restaurants").append("<div class='row restaurant-name'><div class='col s10 offset-s1'><div id='restaurant" +
     [i] + "' class='restaurant-food modal-trigger' style='background-image: url(" +
     restaurants[i].photo + ")' href='#modal" + [i] + "')><h3 class='name'>" +

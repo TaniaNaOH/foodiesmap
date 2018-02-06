@@ -47,5 +47,5 @@ var restaurants = [
     "foodType": "Fuente de sodas",
     "photo": "./assets/img/food6.jpg",
     "logo": "./assets/img/food6.jpg",
- },
+  },
 ];
